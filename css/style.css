@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
-    color: #6686f0;
-    background-color: rgb(61, 61, 61);
+    color: /*#6686f0*/#ffa673;
+    background-color: rgb(61,61,61);
 }
 
 nav {
@@ -9,7 +9,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    border-bottom: solid 2px rgb(39,39,39);
+    background-color: #2e2e2e;
+    border-bottom: solid 2px #141414;
 }
 
 .logo {
@@ -32,8 +33,9 @@ nav {
 }
 
 header h1 {
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 4px;
+    font-weight: bold;
 }
 
 .container {
@@ -50,6 +52,7 @@ header {
 
 header p {
     font-size: 25px;
+    opacity: 80%;
 }
 
 .box {
@@ -62,31 +65,41 @@ div {
 }
 .left-box {
     flex: 50%;
-    border: 3px solid #333;
+    border: 3px solid #141414;
     margin: 10px;
-    padding: 10px;
+    padding: 18px;
     background-color: rgb(53, 53, 53);
 }
 .middle-box {
     flex: 50%;
-    border: 3px solid #333;
+    border: 3px solid #141414;
     margin: 10px;
-    padding: 10px;
+    padding: 18px;
     background-color: rgb(53, 53, 53);
 }
 .right-box {
     flex: 50%;
-    border: 3px solid #333;
+    border: 3px solid #141414;
     margin: 10px;
-    padding: 10px;
+    padding: 18px;
     background-color: rgb(53, 53, 53);
 }
+.left-box h2 {
+    padding-left: 6px;
+}
+.middle-box h2 {
+    padding-left: 6px;
+}
+.right-box h2 {
+    padding-left: 6px;
+}
 .ListKnapp {
-    color: #6686f0;
-    background-color: rgb(61, 61, 61);
+    color: #ffa673;
+    background-color: #2e2e2e;
     padding: 20px;
     border: none;
     font-size: 15px;
+    font-weight: bold;
 }
 .ListKnapp:hover {
     background-color: rgb(45,45,45);
@@ -96,19 +109,21 @@ div {
     font-size: 40px;
     margin: 10px;
     padding: 2px;
-    color: #6686f0;
-    background-color: rgb(61, 61, 61);
+    color: #ffa673;
+    background-color: #2e2e2e;
     border: none;
 }
 .Home:hover {
-    background-color: #333;
+    background-color: #141414;
 }
 .homeboxes {
-    padding: 2px;
+    padding: 6px;
+    letter-spacing: 0.6px;
+    line-height: 20px;
 }
 .boxcon {
     display: inline-block;
-    border: 3px solid #333;
+    border: 3px solid #141414;
     margin: 10px;
     padding: 28px;
     background-color: rgb(53, 53, 53);
@@ -132,7 +147,7 @@ div {
     margin-left: 20px;
 }
 .boxcon a {
-    color: #6686f0;
+    color: #ffa673;
     font-size: 25px;
 }
 .github {
@@ -161,7 +176,7 @@ video {
 }
 .boxvid {
     display: inline-block;
-    border: 3px solid #333;
+    border: 3px solid #141414;
     margin: 10px;
     padding: 28px;
     background-color: rgb(53, 53, 53);
@@ -171,7 +186,7 @@ video {
 }
 .boxfaq {
     display: inline-block;
-    border: 3px solid #333;
+    border: 3px solid #141414;
     margin: 10px;
     padding: 28px;
     background-color: rgb(53, 53, 53);
@@ -180,5 +195,22 @@ video {
     padding-top: 15px;
 }
 .rickroll {
-    color: #6686f0;
+    color: #ffa673;
+}
+.boxpho {
+    display: inline-block;
+    border: 3px solid #141414;
+    margin: 10px;
+    padding: 28px;
+    background-color: rgb(53, 53, 53);
+}
+.boxpho img {
+    width: 100%;
+    height: 100%;
+}
+.boxpho h2 {
+    padding-bottom: 20px;
+}
+.boxpho p {
+    font-size: 12px;
 }
