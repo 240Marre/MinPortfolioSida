@@ -45,7 +45,7 @@ header h1 {
 header {
     margin-top: 50px;
     margin-bottom: 100px;
-    margin-left: 50px;
+    margin-left: 5px;
 }
 
 header p {
@@ -97,11 +97,63 @@ div {
     font-family: 'Overpass', sans-serif;
     font-size: 40px;
     margin: 10px;
-    padding: 5px;
+    padding: 2px;
     color: #6686f0;
     background-color: rgb(61, 61, 61);
     border: none;
 }
 .Home:hover {
     background-color: #333;
+}
+.homeboxes {
+    padding: 2px;
+}
+.boxcon {
+    display: inline-block;
+    border: 3px solid #333;
+    margin: 10px;
+    padding: 28px;
+    background-color: rgb(53, 53, 53);
+}
+.insta {
+    display: inline;
+    font-size: 25px;
+    padding-left: 11px;
+}
+.instagram {
+    height: 25px;
+    width: 25px;
+    display: inline;
+}
+.mail {
+    list-style: none;
+    font-size: 25px;
+}
+.social {
+    font-size: 35px;
+    margin-left: 20px;
+}
+a {
+    color: #6686f0;
+    font-size: 25px;
+}
+.github {
+    list-style: none;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.emailicon {
+    height: 25px;
+    width: 25px;
+}
+.githubicon {
+    height: 25px;
+    width: 25px;
+}
+.contact {
+    padding: 22px;
+}
+.whisky {
+    width: 50%;
+    height: 50%;
 }
